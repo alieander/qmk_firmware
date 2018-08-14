@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {KC_A,    KC_S,    KC_D,    KC_F,    KC_G,           KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN },
   {KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,           KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH },
   {XXXXXXX, KC_LGUI, KC_LCTL, MO(_NUM),KC_LSFT,        KC_RSFT, MO(_NUM),KC_RCTL, KC_RGUI, XXXXXXX},
-  {XXXXXXX, KC_TAB,  KC_LALT, MO(_SYM),KC_BSPC,        KC_SPC,  MO(_SYM),KC_RALT, KC_TAB,  XXXXXXX}
+  {XXXXXXX, KC_TAB,  KC_LALT, MO(_SYM),KC_BSPC,        KC_SPC,  MO(_SYM),KC_RALT, LCTL(KC_A),  XXXXXXX}
 },
 
 /* Number layout
@@ -81,7 +81,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 [_SYM] = {
   {KC_ESC,  _______, KC_UP,   _______, KC_GRV,        KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC},
-  {KC_TAB,  KC_LEFT, KC_DOWN, KC_RGHT, KC_QUOT,       KC_CIRC, KC_AMPR, KC_PIPE, KC_PIPE, KC_UNDS},
+  {KC_TAB,  KC_LEFT, KC_DOWN, KC_RGHT, KC_QUOT,       KC_CIRC, KC_AMPR, KC_ASTR, KC_PIPE, KC_UNDS},
   {KC_BSLS, KC_LPRN, KC_LCBR, KC_LBRC, KC_LABK,       KC_RABK, KC_RBRC, KC_RCBR, KC_RPRN, KC_SLSH},
   {XXXXXXX, _______, _______, MO(_FUN),_______,       _______, MO(_FUN),_______, _______, XXXXXXX},
   {XXXXXXX, _______, _______, ___M___, KC_DEL,        KC_ENT,  ___M___, _______, _______, XXXXXXX},
